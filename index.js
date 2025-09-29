@@ -50,9 +50,6 @@ console.log(marcaPortatil);
 let marcaPortatil2 = Portatil["marca"];
 
 //7
-const Concierto = {
-    "array grupos" : ["La oreja de van Gogh", "Linkin Park", "Metallica"]
-}
 
 let grupos = Concierto["array grupos"];
 
@@ -71,12 +68,8 @@ let arrayRGB = [Led.rojo, Led.verde, Led.azul];
 Portatil.modelo ="P345";
 
 //10
-const Concierto = {
-    cartelera: "Linkin Park",
-    ubicacion: "Torrejon",
-}
 
-Concierto.cartelera = "Guns N' Roses";
+Concierto.cartelera.push("Guns N' Roses");
 
 //11
 const Concierto = {
@@ -187,10 +180,6 @@ const especificaciones = Movil["especificaciones"];
 
 // Modificacion de propiedades
 //23
-const Grupo = {
-    arrayintegrantes: ["María", "Paula", "Roberta"],
-    numintegrantes: 3
-}
 
 Grupo.numintegrantes = 5;
 
