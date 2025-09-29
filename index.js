@@ -1,6 +1,6 @@
 //Objetos
 //1
-const coche = {
+const Coche = {
     marca: "Seat",
     modelo: "ibiza",
     matrícula: "3376HCY",
