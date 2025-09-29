@@ -1,4 +1,4 @@
-//Obejtos
+//Objetos
 //1
 const coche = {
     marca: "Seat",
