@@ -7,7 +7,7 @@ const Coche = {
 }
 
 //2
-const casa = {
+const Casa = {
     codPostal: "28022",
     calle: "Pirra",
     portal: "34",
@@ -18,10 +18,10 @@ const casa = {
 const FullStackDeveloper = {
     lenguajes: ["JavaScript", "Python", "Java", "SQL"],
     proyectos: ["E-commerce", "Chat App", "Blog Personal", "API REST"]
-}
+};
 
 //4
-const perro = {
+const Perro = {
     nombre: "pepe",
     raza: "doberman",
     color: "marrón",
@@ -46,10 +46,6 @@ let marcaPortatil = Portatil.marca;
 console.log(marcaPortatil);
 
 //6
-const Portatil = {
-  marca: "HP",
-  modelo: "Pavilion",
-};
 
 let marcaPortatil2 = Portatil["marca"];
 
@@ -61,7 +57,7 @@ const Concierto = {
 let grupos = Concierto["array grupos"];
 
 //8
-onst Led = {
+const Led = {
   rojo: 34,
   verde: 250,
   azul: 12
@@ -71,10 +67,6 @@ let arrayRGB = [Led.rojo, Led.verde, Led.azul];
 
 // Modificación de propiedades
 //9
-const Portatil = {
-  marca: "Lenovo",
-  modelo: "12",
-};
 
 Portatil.modelo ="P345";
 
@@ -203,23 +195,13 @@ const Grupo = {
 Grupo.numintegrantes = 5;
 
 //24
-const Pantalla = {
-    dimensiones: "470 x 800"
-};
-
 Pantalla.dimensiones = "1920 x 1080";
 
 //25
-const Led = {
-    encendido: true
-};
 
 Led.encendido = !Led.encendido;
 
 //26
-onst Movil = {
-    temperatura: "30º"
-};
 
 Movil.temperatura = "20º";
 
