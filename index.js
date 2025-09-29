@@ -3,8 +3,8 @@
 const Coche = {
     marca: "Seat",
     modelo: "ibiza",
-    matrícula: "3376HCY",
-}
+    matrícula: "3376 HCY"
+};
 
 //2
 const Casa = {
