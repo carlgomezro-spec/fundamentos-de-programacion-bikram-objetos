@@ -150,14 +150,6 @@ const Grupo = {
 const integrantes = Grupo.arrayintegrantes;
 
 //20
-const Impresora = {
-    tinta: {
-        rojo: 50,
-        verde: 70,
-        azul: 90
-    }
-};
-
 const nivelesTinta = Impresora.tinta;
 
 //21
